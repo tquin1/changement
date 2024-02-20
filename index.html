@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+    <title>Se préparer au changement</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Se préparer au changement</h1>
+        <div id="quiz" class="quiz"></div>
+        <div id="explanationModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <div id="explanation"></div>
+                <button id="nextBtn" class="next-btn" onclick="nextQuestion()">Continuez</button>
+            </div>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
